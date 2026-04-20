@@ -3,9 +3,9 @@ import streamlit as st
 from langchain_groq import ChatGroq
 
 # ---- PAGE CONFIG ----
-st.set_page_config(page_title="Groq AI Assistant", page_icon="🤖")
+st.set_page_config(page_title="Groq AI Assistant", page_icon="🐼")
 
-st.title("🤖 Groq AI Assistant")
+st.title("🐼 Groq AI Assistant")
 st.write("Ask anything about Python, Data Science, or AI")
 
 # ---- SIDEBAR ----
@@ -21,7 +21,7 @@ model = st.sidebar.selectbox(
 )
 
 # ---- USER INPUT ----
-user_input = st.text_area("💬 Your Question:")
+user_input = st.text_area("🗨️ Your Question:")
 
 # ---- GENERATE RESPONSE ----
 if st.button("Generate Response"):
