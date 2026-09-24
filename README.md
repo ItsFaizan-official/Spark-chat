@@ -1,5 +1,5 @@
 
-<h1 align="center">🐼 Groq AI Assistant</h1>
+<h1 align="center">🧠 AI Assistant</h1>
 
 <p align="center">
   🚀 Streamlit + LangChain + Groq LLM App  
