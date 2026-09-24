@@ -91,6 +91,11 @@ python -m venv venv
 ```
 
 ---
+### PS- ADMIN Access for Update the Policy
+```bash
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+```
 
 ### 3️⃣ Activate Environment
 
